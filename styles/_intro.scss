@@ -1,0 +1,34 @@
+.intro {
+  min-height: 90vh;
+  padding: 4rem 5%;
+  background: radial-gradient(#525252, #131313);
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-rows: auto 1fr auto;
+  h1 {
+    grid-column: 1/2;
+    font-family: "Lobster", cursive;
+    font-weight: 400;
+    justify-self: end;
+    align-self: start;
+  }
+  img {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .info {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    align-self: end;
+    h2 {
+      font-weight: 600;
+    }
+    p {
+      padding-top: 1.5rem;
+    }
+  }
+}

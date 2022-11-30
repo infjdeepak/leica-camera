@@ -1,0 +1,42 @@
+.features {
+  background: #323232;
+  min-height: 90vh;
+  padding: 4rem 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h2 {
+    font-size: $header1;
+    font-family: "lobster", "cursive";
+    font-weight: 400;
+    margin-bottom: 5rem;
+  }
+}
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.card {
+  background: rgba(245, 245, 245, 0.685);
+  color: #070707;
+  flex: 1 1 30rem;
+  max-width: 30rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  img {
+    max-width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  h3 {
+    padding: 2rem 2rem 0 2rem;
+  }
+  p {
+    padding: 2rem;
+  }
+}

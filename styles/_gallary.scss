@@ -1,0 +1,31 @@
+.gallary-section {
+  background: #323232;
+  padding: 4rem 5%;
+}
+.gallary-head {
+  padding-bottom: 4rem;
+  h2 {
+    font-size: $header1;
+    font-weight: 600;
+  }
+  p {
+    margin-top: 2rem;
+  }
+}
+.gallary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  li {
+    overflow: hidden;
+  }
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+.img1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
